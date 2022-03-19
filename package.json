@@ -6,7 +6,6 @@
   "sideEffects": false,
   "scripts": {
     "build": "run-p build:*",
-   // "build:css": "npm run generate:css -- --minify",
     "dev:remix": "cross-env NODE_ENV=development remix watch",
     "dev:wrangler": "cross-env NODE_ENV=development wrangler pages dev ./public",
     "dev": "run-p dev:*",
