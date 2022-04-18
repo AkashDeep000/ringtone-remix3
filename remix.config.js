@@ -1,7 +1,8 @@
 /**
- * @type {import('@remix-run/dev').AppConfig}
- */
+* @type {import('@remix-run/dev').AppConfig}
+*/
 module.exports = {
+
   serverBuildTarget: "cloudflare-pages",
   server: "./server.js",
   devServerBroadcastDelay: 1000,
@@ -9,5 +10,5 @@ module.exports = {
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "functions/[[path]].js",
-  // publicPath: "/build/",
+  publicPath: "ringtone.s3.eu-central-003.backblazeb2.com/build/",
 };
