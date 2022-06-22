@@ -10,5 +10,5 @@ module.exports = {
   // appDirectory: "app",
   // assetsBuildDirectory: "public/build",
   // serverBuildPath: "functions/[[path]].js",
-  publicPath: "https://static.akashdeep.tk/file/ringtone/build/",
+ // publicPath: "https://static.akashdeep.tk/file/ringtone/build/",
 };
